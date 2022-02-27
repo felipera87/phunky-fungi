@@ -1,7 +1,7 @@
 <template>
   <section
     id="cover-section"
-    class="flex justify-center pt-11 h-700px bg-center bg-no-repeat bg-cover"
+    class="flex justify-center pt-11 h-700px sm:h-1100px bg-center bg-no-repeat bg-cover"
   >
     <div class="flex flex-col items-center w-full sm:w-11/12">
       <PhunkyTitle class="mt-14 sm:w-5/12"></PhunkyTitle>

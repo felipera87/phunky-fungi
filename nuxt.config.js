@@ -31,10 +31,11 @@ export default {
     'normalize.css/normalize.css',
     '@/assets/scss/base.scss',
     '@/assets/css/main.css',
+    'aos/dist/aos.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [{ src: '@/plugins/aos', mode: 'client' }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

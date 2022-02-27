@@ -6,11 +6,13 @@
     <div
       class="flex flex-col sm:flex-row w-full sm:w-11/12 items-center sm:justify-center"
     >
-      <h2 v-if="isMobileView" class="section-title">The Forest</h2>
-      <div class="w-1/2">
+      <h2 v-if="isMobileView" data-aos="slide-up" class="section-title">
+        The Forest
+      </h2>
+      <div data-aos="fade-in" class="w-1/2">
         <img src="@/assets/img/nft/phunky.png" alt="Phunky character preview" />
       </div>
-      <div class="w-full sm:w-1/2 p-3">
+      <div data-aos="slide-left" class="w-full sm:w-1/2 p-3">
         <h2 v-if="!isMobileView" class="section-title mb-6">The Forest</h2>
         <p class="basic-text">Welcome to the Forest…</p>
         <p class="basic-text">Phunky Fungi is a movement.</p>

@@ -4,10 +4,10 @@
     class="flex flex-col items-center pt-11 h-auto px-3 w-full"
   >
     <div class="flex flex-col items-center w-full sm:w-11/12">
-      <h2 class="section-title mb-6">Our Team</h2>
-      <h3 class="section-subtitle">Founders</h3>
+      <h2 data-aos="slide-up" class="section-title mb-6">Our Team</h2>
+      <h3 data-aos="slide-up" class="section-subtitle">Founders</h3>
       <div class="flex flex-wrap justify-around">
-        <Card class="w-full sm:w-3/12">
+        <Card data-aos="fade-in" class="w-full sm:w-3/12">
           <img
             slot="image"
             src="@/assets/img/nft/fergz.png"
@@ -28,7 +28,7 @@
             catch him Fishing, Skateboarding or Surfing Steez Bio
           </span>
         </Card>
-        <Card class="w-full sm:w-3/12">
+        <Card data-aos="fade-in" class="w-full sm:w-3/12">
           <img slot="image" src="@/assets/img/nft/steez.png" alt="John Steez" />
           <h3 slot="title" class="text-white text-2xl font-semibold">
             John Steez
@@ -44,7 +44,7 @@
             shooting photography at car meets and hiking with his dogs.
           </span>
         </Card>
-        <Card class="w-full sm:w-3/12">
+        <Card data-aos="fade-in" class="w-full sm:w-3/12">
           <img
             slot="image"
             src="@/assets/img/nft/flower.png"
@@ -64,7 +64,7 @@
             forging, crystal hunting, hiking and good vegan food.
           </span>
         </Card>
-        <Card class="w-full sm:w-3/12">
+        <Card data-aos="fade-in" class="w-full sm:w-3/12">
           <img
             slot="image"
             src="@/assets/img/nft/phreshh.png"

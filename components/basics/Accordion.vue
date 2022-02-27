@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-for="(item, index) in items" :key="item.key">
+    <div v-for="(item, index) in items" :key="item.key" data-aos="slide-up">
       <button
         class="title-container flex justify-between items-center text-white text-xl text-left font-semibold w-full"
         @click="openItem(index)"

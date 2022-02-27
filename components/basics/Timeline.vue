@@ -1,6 +1,11 @@
 <template>
   <div class="w-full">
-    <div v-for="item in items" :key="item.key" class="flex mt-8">
+    <div
+      v-for="item in items"
+      :key="item.key"
+      class="flex mt-8"
+      data-aos="slide-up"
+    >
       <h3
         v-if="!isMobileView && item"
         class="w-2/12 flex justify-end text-white text-2xl font-bold text-right"

@@ -4,7 +4,7 @@
     class="flex flex-col items-center pt-11 h-auto px-3 w-full"
   >
     <div class="flex flex-col items-center w-full sm:w-11/12">
-      <h2 class="section-title">Roadmap</h2>
+      <h2 data-aos="slide-up" class="section-title">Roadmap</h2>
       <Timeline :timeline-items="[...timelineItems]"></Timeline>
     </div>
   </section>
